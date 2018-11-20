@@ -777,8 +777,8 @@ var powerbi;
     (function (visuals) {
         var plugins;
         (function (plugins) {
-            plugins.twoYaxis4DA5F83DD2224E5493885B6268675246_DEBUG = {
-                name: 'twoYaxis4DA5F83DD2224E5493885B6268675246_DEBUG',
+            plugins.twoYaxis4DA5F83DD2224E5493885B6268675246 = {
+                name: 'twoYaxis4DA5F83DD2224E5493885B6268675246',
                 displayName: 'twoYaxis',
                 class: 'Visual',
                 version: '1.0.0',

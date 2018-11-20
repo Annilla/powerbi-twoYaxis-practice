@@ -1,6 +1,6 @@
 module powerbi.visuals.plugins {
-    export var twoYaxis4DA5F83DD2224E5493885B6268675246_DEBUG = {
-        name: 'twoYaxis4DA5F83DD2224E5493885B6268675246_DEBUG',
+    export var twoYaxis4DA5F83DD2224E5493885B6268675246 = {
+        name: 'twoYaxis4DA5F83DD2224E5493885B6268675246',
         displayName: 'twoYaxis',
         class: 'Visual',
         version: '1.0.0',
