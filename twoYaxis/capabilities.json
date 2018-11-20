@@ -1,0 +1,58 @@
+{
+    "dataRoles": [
+        {
+            "displayName": "X Axis",
+            "name": "category",
+            "kind": "Grouping"
+        },
+        {
+            "displayName": "BarValue",
+            "name": "measureBar",
+            "kind": "Measure"
+        },
+        {
+            "displayName": "LineValue",
+            "name": "measureLine",
+            "kind": "Measure"
+        }
+    ],
+    "objects": {},
+    "dataViewMappings": [
+        {
+            "conditions": [
+                {
+                    "category": {
+                        "max": 1
+                    },
+                    "measureBar": {
+                        "max": 1
+                    },
+                    "measureLine": {
+                        "max": 1
+                    }
+                }
+            ],
+            "categorical": {
+                "categories": {
+                    "for": {
+                        "in": "category"
+                    }
+                },
+                "values": {
+                    "select": [
+                        {
+                            "bind": {
+                                "to": "measureBar"
+                            }
+                        },
+                        {
+                            "bind": {
+                                "to": "measureLine"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}
